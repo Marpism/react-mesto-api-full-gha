@@ -35,7 +35,5 @@ export const settings = {
 }
 
 export const cardContainerSelector = '.cards';
-// export const placeInput = document.querySelector('#form-input-place');
-// export const linkInput = document.querySelector('#form-input-link');
 export const usernameInput = document.querySelector('#form-input-username');
 export const subscriptionInput = document.querySelector('#form-input-subscription');
