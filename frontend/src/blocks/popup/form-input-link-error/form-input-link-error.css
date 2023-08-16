@@ -1,0 +1,5 @@
+.form-input-link-error {
+  visibility: hidden;
+  display: block;
+  min-height: 30px;
+}

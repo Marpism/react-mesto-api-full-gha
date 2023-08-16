@@ -1,0 +1,29 @@
+.profile__photo {
+  background-image: url('https://pyxis.nymag.com/v1/imgs/bc9/5bb/95f88f06973066c75f07b98ed8af7f634a-18-pepe-the-frog.2x.rsquare.w190.jpg');
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+  transition: 0.3s;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__photo:hover .profile__photo-overlay {
+  opacity: 0.7;
+}
+
+.profile__photo:hover .profile__avatar-button{
+  opacity: 1;
+}
+
+@media screen and (max-width: 320px) {
+  .profile__photo {
+    margin: 0 0 26px 0;
+  }
+}

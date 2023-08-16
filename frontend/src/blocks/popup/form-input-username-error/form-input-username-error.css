@@ -1,0 +1,5 @@
+.form-input-username-error {
+  visibility: hidden;
+  display: block;
+  min-height: 30px;
+}

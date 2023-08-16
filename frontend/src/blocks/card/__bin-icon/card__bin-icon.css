@@ -1,0 +1,17 @@
+.card__bin-icon {
+  width: 18px;
+  height: 19px;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url(../../../images/bin-icon.svg);
+  background-size: 18px;
+  border: none;
+  transition: opacity 1s ease;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.card__bin-icon:hover {
+  opacity: 0.6;
+}

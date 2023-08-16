@@ -1,0 +1,14 @@
+.profile__text {
+  max-width: 480px;
+  display: grid;
+  grid-template-columns: 1fr 22px;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0 18px;
+  align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+  .profile__text {
+    gap: 0 11.5px;
+  }
+}

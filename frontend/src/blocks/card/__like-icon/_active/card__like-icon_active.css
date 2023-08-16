@@ -1,0 +1,14 @@
+.card__like-icon_active {
+  width: 22px;
+  height: 19px;
+  cursor: pointer;
+  /* background-color: transparent; */
+  background-image: url(../../../../images/heart-icon_active.svg);
+  background-size: 22px;
+  border: none;
+  transition: opacity 1s ease;
+}
+
+.card__like-icon_active:hover {
+  opacity: 0.5;
+}
