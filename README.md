@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.50.163
+IP 158.160.50.163
 
 Frontend https://marymary.students.nomoreparties.co/
 
